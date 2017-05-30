@@ -8,8 +8,8 @@ class Grub {
     this.food = 'jelly';
   }
   eat() {
-    return "Mmmmmmmmm jelly";
+    return "Mmmmmmmmm " + this.food;
   }
 }
 
-var grub = new Grub();
+//var grub = new Grub();
